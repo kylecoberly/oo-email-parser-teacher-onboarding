@@ -7,6 +7,6 @@ class EmailParser
     @csv = csv
   end
   def parse
-    @csv.split(/ /)
+    @csv.split(/[] |, ]/)
   end
 end

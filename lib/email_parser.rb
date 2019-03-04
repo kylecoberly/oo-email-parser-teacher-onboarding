@@ -4,6 +4,6 @@
 # or whitespace (' ').
 class EmailParser
   def parse csv
-    csv.split(",|\w")
+    csv.split(",|\s")
   end
 end
